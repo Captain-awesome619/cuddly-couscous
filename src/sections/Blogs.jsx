@@ -3,9 +3,9 @@ import "../styles/sections/Blogs.scss";
 import Title from "../components/TItle";
 import Blog from "../components/Blog";
 import Button from "../components/Button";
-import BlogImage1 from "C:/Users/lord_awesome/the multi-purpose site/multi-app/src/assets/blogImage1.jpg";
-import BlogImage2 from "C:/Users/lord_awesome/the multi-purpose site/multi-app/src/assets/blogImage2.jpg";
-import BlogImage3 from "C:/Users/lord_awesome/the multi-purpose site/multi-app/src/assets/blogImage3.jpg";
+import BlogImage1 from "../../src/assets/blogImage1.jpg";
+import BlogImage2 from "../../src/assets/blogImage2.jpg";
+import BlogImage3 from "../../src/assets/blogImage3.jpg";
 import {textAnimation, cardAnimation} from "../Animation"
 import { motion } from "framer-motion";
 import { useScroll } from "../components/useScroll";
