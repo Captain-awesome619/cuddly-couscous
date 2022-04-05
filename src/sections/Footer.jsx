@@ -114,7 +114,7 @@ function Footer() {
               <div className="detail">
                 <div className="detail-name">Email</div>
                 <div className="detail-content">
-                  <a href="#">kishansheth21@gmail.com</a>
+                  <a href="#">ogunsolatoluwalase@gmail.com</a>
                 </div>
               </div>
             </div>
@@ -125,7 +125,7 @@ function Footer() {
               <div className="detail">
                 <div className="detail-name">Phone</div>
                 <div className="detail-content">
-                  <a href="#">+91 7551231231</a>
+                  <a href="#">+234 8167160663</a>
                 </div>
               </div>
             </div>
