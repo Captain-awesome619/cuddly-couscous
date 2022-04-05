@@ -1,5 +1,5 @@
 import React from "react";
-import WorkImage from "C:/Users/lord_awesome/the multi-purpose site/multi-app/src/assets/work.svg"
+import Work from "../../src/assets/side.png"
 import "../styles/sections/Starter.scss"
 import {GoPlay} from "react-icons/go";
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
@@ -46,7 +46,7 @@ export default function Starter() {
           animate={controls}
           transition={{ type: "tween" }}
         >
-          <img src={WorkImage} alt="Work Image" />
+          <img src = {Work} alt="Image" />
         </motion.div>
       </div>
     </div>
