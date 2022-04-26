@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/components/Title.scss"
 
+
 function Title({ title, color, lineCenter = false }) {
     return (
       <div className={`title ${lineCenter === true ? "center" : ""}`}>
@@ -8,8 +9,9 @@ function Title({ title, color, lineCenter = false }) {
         <div className={`${color} `}>
           <span></span>
         </div>
+        
       </div>
     );
   }
-  
+
   export default Title;

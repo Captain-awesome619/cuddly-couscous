@@ -6,6 +6,7 @@
   display: flex;
   justify-content: space-between;
   .col {
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,11 +52,11 @@
         display: block;
       }
     }
-  
+
     .navbar {
       flex-direction: column;
       justify-content: flex-start;
-  
+
       .col {
         .collapseble-button {
           display: block;
@@ -83,4 +84,3 @@
       }
     }
   }
-  
