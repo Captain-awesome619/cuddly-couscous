@@ -15,7 +15,7 @@ function Footer() {
   const [element, controls] = useScroll();
 
   return (
-    <div className="footer-container" ref={element}>
+    <div className="footer-container"ref={element} >
       <div className="container">
         <div className="main-container">
           <motion.div
