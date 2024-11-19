@@ -15,7 +15,7 @@ export default function Starter() {
 
   return (
     <div className="main-container" ref={element}>
-      <Navbar />
+      <Navbar className="navv" />
       <div className="container">
         <motion.div
           className="content"

@@ -6,7 +6,7 @@ import { MdClose } from "react-icons/md";
 import  BrandName from "./BrandName";
 import {motion} from "framer-motion";
 import {navbarAnimation} from "../Animation";
-import Toggle from "./Toggle";
+
 
 
 
@@ -22,26 +22,30 @@ export default function Navbar() {
       variants={navbarAnimation}
       transition={{ delay: 0.1 }}
     >
+    
       <div className="col">
-        <BrandName />
-        <div><Toggle /></div>
 
-        <div className="collapseble-button">
+      <div className="collapseble-button">
 
-          {!toggleNavbar ? (
-            <GiHamburgerMenu onClick={navbarToggler} />
-          ) : (
-            <MdClose onClick={navbarToggler} />
-          )}
+{!toggleNavbar ? (
+  <GiHamburgerMenu onClick={navbarToggler} />
+) : (
+  <MdClose onClick={navbarToggler} />
+)}
 
-        </div>
+</div>
+<div className="brandn">
+        <BrandName className="brandn2" />
+        </div> 
+
+       
 
       </div>
 
       <nav>
 
         <div className="links">
-          <ul>
+          <ul className="abs">
             <li>
               <a href="#about">About</a>
             </li>
